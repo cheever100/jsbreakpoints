@@ -1,0 +1,67 @@
+h1 {
+  text-align:center;
+}
+
+main {
+  width: 80%;
+  background-color: #00ff00;
+  margin-left: 100px;
+  margin-right: 100px;
+  min-height: 200px;
+  text-align:center;
+}
+
+.box {
+  width: 180px;
+  height: 120px;
+  border: 1px #000;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 80px;
+  display:inline-block;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url('../img/1.jpg');
+}
+.img2 {
+  background-image: url('../img/2.jpg');
+}
+.img3 {
+  background-image: url('../img/3.jpg');
+}
+.img4 {
+  background-image: url('../img/4.jpg');
+}
+.img5 {
+  background-image: url('../img/5.jpg');
+}
+.img6 {
+  background-image: url('../img/6.jpg');
+}
+.img7 {
+  background-image: url('../img/7.jpg');
+}
+.img8 {
+  background-image: url('../img/8.jpg');
+}
+.img9 {
+  background-image: url('../img/9.jpg');
+}
+
+/*applied color break to screens 800px and below*/
+@media all and (max-width: 800px) {
+  main {
+  background-color: blue;
+  } 
+}
+
+/*applied circular images between 400px and 600px*/
+@media all and (max-width: 600px) and (min-width: 400px) {
+  .box {
+    border-radius: 75%;
+  }
+}
+
